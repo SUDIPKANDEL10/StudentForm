@@ -51,7 +51,7 @@ Using visual studio 2022 made me easy to upload project folder in github.
 
     ```json
     "ConnectionStrings": {
-        "DefaultConnection": "Server=my_server_name;Database=StudentFormDb;User Integrated Security= true; TrustServerCertificate=True;
+        "DefaultConnection": "Server=my_server_name;Database=StudentFormDb; Integrated Security= true; TrustServerCertificate=True;
 - Update `Startup.cs` to use SQL Server:
 
     ```csharp
